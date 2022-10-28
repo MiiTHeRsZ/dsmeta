@@ -9,6 +9,16 @@
             "projectName": "dsmeta",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DsmetaApplication<dsmeta>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.miith.dsmeta.DsmetaApplication",
+            "projectName": "dsmeta",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
